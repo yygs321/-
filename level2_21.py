@@ -16,8 +16,8 @@ def solution(n):
         
         if 1 not in arr:
             break
-        
         arr.remove(1)
+
         for i in range(len(arr)):
             if arr[i]==1:
                 arr[i]+=1
